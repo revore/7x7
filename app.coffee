@@ -110,7 +110,7 @@ Eat = Backbone.Model.extend
 
 EatsCollection = Backbone.Collection.extend
   model: Eat
-  url: '/api/eats'
+  url: '/i/docs/eats'
   # localStorage: new Store('eats')
 
 EatsCollection.prototype.create = (eat) ->

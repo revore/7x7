@@ -15,7 +15,7 @@
 
   EatsCollection = Backbone.Collection.extend({
     model: Eat,
-    url: '/api/eats'
+    url: '/i/docs/eats'
   });
 
   EatsCollection.prototype.create = function(eat) {
